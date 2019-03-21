@@ -6,6 +6,6 @@ def line(deli_line)
   else 
     queue = []
     deli_line.each.with_index do |cust, line_pos| 
-      queue 
+      queue.push(cust, line) 
   end
 end
