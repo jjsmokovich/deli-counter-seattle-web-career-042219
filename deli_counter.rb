@@ -10,7 +10,7 @@ def line(deli_line)
     end
    puts queue
   end
-end "joe"]
+end 
 
 def line(deli_line)
   if deli_line.length == 0 
