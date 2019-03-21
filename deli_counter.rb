@@ -8,6 +8,6 @@ def line(deli_line)
     deli_line.each.with_index do |cust, line_pos| 
       queue.push(line_pos+1, cust) 
     end
-  return queue
+  puts queue
   end
 end
