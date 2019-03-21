@@ -12,7 +12,3 @@ def line(deli_line)
   end
 end
 
-def take_a_number(deli_line, name)
-  deli_line << name
-  puts "Welcome, #{name}, you are #{deli_line.length} in line."
-end
