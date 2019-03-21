@@ -5,7 +5,7 @@ def line(deli_line)
     puts "The line is currently empty."
   else 
     queue = []
-    deli_line.each.with_index do |cust, line_pos| 
+    deli_line.each.with_index do |cust, line_pos|
       queue.push(line_pos+1, cust) 
     end
    queue
