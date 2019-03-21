@@ -5,6 +5,6 @@ def line(deli_line)
     puts "The line is currently empty."
   else 
     current_line = "The line is currently: "
-    deli_line.each.with_index do |cust| 
+    deli_line.each.with_index do |cust, line_pos| 
   end
 end
