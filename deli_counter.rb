@@ -1,4 +1,4 @@
-deli_line = ["Ada", "joe"]
+deli_line = []
 
 def line(deli_line)
   if deli_line.length == 0 
