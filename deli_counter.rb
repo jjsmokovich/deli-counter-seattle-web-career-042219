@@ -18,7 +18,7 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(deli_line)
-  if deli_line == 0
+  if deli_line.empty?
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{deli_line.shift}."
