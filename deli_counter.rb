@@ -7,7 +7,7 @@ def line(deli_line)
     queue = []
     deli_line.each.with_index do |cust, line_pos| 
       queue.push(line_pos, cust) 
-  end
+    end
   return queue
-end
+  end
 end
