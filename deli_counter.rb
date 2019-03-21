@@ -6,5 +6,6 @@ def line(deli_line)
   else 
     current_line = []
     deli_line.each.with_index do |cust, line_pos| 
+      current_line 
   end
 end
